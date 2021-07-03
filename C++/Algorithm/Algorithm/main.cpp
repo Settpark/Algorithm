@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <vector>
+#include <map>
 
 using namespace std;
 
@@ -21,17 +22,16 @@ int main(int argc, const char * argv[]) {
 
 string solution(vector<string> participant, vector<string> completion) {
     string answer = "";
+    map<string, int> nameCount;
     for(int i = 0; i<participant.size(); i++) {
-        string temp = participant[i];
-        for (int j = 0; j<completion.size(); j++) {
-            string temp2 = completion[j];
-            if (temp == temp2) {
-                participant.erase(participant.begin() + i);
-                completion.erase(completion.begin() + j);
-                break;
-            }
-        }
+        nameCount[participant[i]]++;
     }
-    answer = participant[0];
+    for(int j =0; j<completion.size(); j++) {
+        nameCount[completion[j]]--;
+    }
+    for(int k = 0; k<participant.size(); k++) {
+        if (nameCount[participant[k]] > 0)
+            answer = participant[k];
+    }
     return answer;
 }
