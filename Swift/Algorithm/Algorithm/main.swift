@@ -7,5 +7,5 @@
 
 import Foundation
 
-var rom = RomanToInteger()
-print(rom.romanToInt("IV"))
+var rom = Printer()
+print(rom.solution([1, 1, 9, 1, 1, 1], 0))
