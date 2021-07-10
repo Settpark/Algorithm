@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		82503D7426949F2F0044C528 /* Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82503D7326949F2F0044C528 /* Printer.swift */; };
+		829934BC2696D2BB00CB3B55 /* ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829934BB2696D2BB00CB3B55 /* ContainsDuplicate.swift */; };
+		829934BE2696EF7F00CB3B55 /* FindingPrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829934BD2696EF7F00CB3B55 /* FindingPrimeNumber.swift */; };
+		82A13C1F26998C5E00D08089 /* DFSBFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A13C1E26998C5E00D08089 /* DFSBFS.swift */; };
 		82A473C22692E78B00B136AE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A473C12692E78B00B136AE /* main.swift */; };
 		82A473C92692E7DC00B136AE /* InvitationVillageHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A473C82692E7DC00B136AE /* InvitationVillageHead.swift */; };
 		82A473CC2692F0D400B136AE /* KthNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A473CB2692F0D400B136AE /* KthNumber.swift */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		82503D7326949F2F0044C528 /* Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Printer.swift; sourceTree = "<group>"; };
+		829934BB2696D2BB00CB3B55 /* ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainsDuplicate.swift; sourceTree = "<group>"; };
+		829934BD2696EF7F00CB3B55 /* FindingPrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindingPrimeNumber.swift; sourceTree = "<group>"; };
+		82A13C1E26998C5E00D08089 /* DFSBFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFSBFS.swift; sourceTree = "<group>"; };
 		82A473BE2692E78A00B136AE /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A473C12692E78B00B136AE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		82A473C82692E7DC00B136AE /* InvitationVillageHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationVillageHead.swift; sourceTree = "<group>"; };
@@ -48,6 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		829934BA2696D23E00CB3B55 /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				829934BB2696D2BB00CB3B55 /* ContainsDuplicate.swift */,
+				829934BD2696EF7F00CB3B55 /* FindingPrimeNumber.swift */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
+		82A13C1D26998C4A00D08089 /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				82A13C1E26998C5E00D08089 /* DFSBFS.swift */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
 		82A473B52692E78A00B136AE = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +90,8 @@
 		82A473C02692E78A00B136AE /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				82A13C1D26998C4A00D08089 /* Day4 */,
+				829934BA2696D23E00CB3B55 /* Day3 */,
 				82A685A326941BC7008EAB73 /* Day2 */,
 				82A473CA2692F0A900B136AE /* Day1 */,
 				82A473C12692E78B00B136AE /* main.swift */,
@@ -150,11 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829934BE2696EF7F00CB3B55 /* FindingPrimeNumber.swift in Sources */,
 				82503D7426949F2F0044C528 /* Printer.swift in Sources */,
 				82A473C22692E78B00B136AE /* main.swift in Sources */,
 				82A473CE2692F76100B136AE /* LargestNumber.swift in Sources */,
 				82A473C92692E7DC00B136AE /* InvitationVillageHead.swift in Sources */,
+				82A13C1F26998C5E00D08089 /* DFSBFS.swift in Sources */,
 				82A473CC2692F0D400B136AE /* KthNumber.swift in Sources */,
+				829934BC2696D2BB00CB3B55 /* ContainsDuplicate.swift in Sources */,
 				82A685A526941BE9008EAB73 /* RomanToInteger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

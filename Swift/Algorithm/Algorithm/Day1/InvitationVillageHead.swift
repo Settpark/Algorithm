@@ -16,7 +16,6 @@ class InvitationVillageHead {
         }
         var array = myinput2.components(separatedBy: " ").map{Int($0)!}
         array.sort(by: >)
-        print(array)
         for i in 0..<Int(myinput)! {
            array[i] += (i + 1)
         }

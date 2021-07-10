@@ -7,5 +7,5 @@
 
 import Foundation
 
-var rom = Printer()
-print(rom.solution([1, 1, 9, 1, 1, 1], 0))
+let a = DFSBFS()
+a.solution()
