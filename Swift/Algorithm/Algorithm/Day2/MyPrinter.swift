@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Printer {
+class MyPrinter {
     func solution(_ priorities:[Int], _ location:Int) -> Int {
         var answer: Int = 0
         var q: [(Int,Int)] = []

@@ -20,7 +20,7 @@ class LargestNumber {
     }
 }
 
-class temp {
+class WrongAnswer {
     func solution(_ numbers:[Int]) -> String {
         var tempNumbers: [Int] = []
         var originNumbers: [Int] = numbers
