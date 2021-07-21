@@ -6,3 +6,6 @@
 //
 
 import Foundation
+
+let a = Carpet.init()
+print(a.solution(24, 24))
