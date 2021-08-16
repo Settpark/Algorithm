@@ -7,5 +7,5 @@
 
 import Foundation
 
-let a = Carpet.init()
-print(a.solution(24, 24))
+let a = ValidateStackSequences()
+print(a.validateStackSequences([1,2,3,4,5], [4,5,3,2,1]))
