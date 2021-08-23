@@ -7,5 +7,5 @@
 
 import Foundation
 
-let a = ContainerWithMostWater()
-print(a.maxArea([2,3,4,5,18,17,6]))
+let a = HeightChecker()
+print(a.heightChecker([5,1,2,3,4]))
