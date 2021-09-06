@@ -7,5 +7,6 @@
 
 import Foundation
 
-let a = HeightChecker()
-print(a.heightChecker([5,1,2,3,4]))
+let a = RotateArray()
+var arr = [-1,-100,3,99]
+a.rotate(&arr, 2)

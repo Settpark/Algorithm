@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82326B4E2672732000018DCE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 82326B4D2672732000018DCE /* main.c */; };
-		829D3E2826E4942100A4D2AF /* MergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E2726E4942100A4D2AF /* MergeSort.c */; };
+		829D3E1826E48ADB00A4D2AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E1726E48ADB00A4D2AF /* main.swift */; };
+		829D3E2026E48B7400A4D2AF /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E1F26E48B7400A4D2AF /* Fibonacci.swift */; };
+		829D3E2326E48D2500A4D2AF /* Tribonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E2226E48D2500A4D2AF /* Tribonacci.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		82326B482672732000018DCE /* CopyFiles */ = {
+		829D3E1226E48ADB00A4D2AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		82326B4A2672732000018DCE /* PracticeAlgorithmWithC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeAlgorithmWithC; sourceTree = BUILT_PRODUCTS_DIR; };
-		82326B4D2672732000018DCE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		829D3E2626E4942100A4D2AF /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MergeSort.h; path = practiceAlgorithmWithC/DivideAndConquer/MergeSort.h; sourceTree = SOURCE_ROOT; };
-		829D3E2726E4942100A4D2AF /* MergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = MergeSort.c; path = practiceAlgorithmWithC/DivideAndConquer/MergeSort.c; sourceTree = SOURCE_ROOT; };
+		829D3E1426E48ADB00A4D2AF /* Algorithm2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm2; sourceTree = BUILT_PRODUCTS_DIR; };
+		829D3E1726E48ADB00A4D2AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		829D3E1F26E48B7400A4D2AF /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
+		829D3E2226E48D2500A4D2AF /* Tribonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tribonacci.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		82326B472672732000018DCE /* Frameworks */ = {
+		829D3E1126E48ADB00A4D2AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,82 +42,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82326B412672732000018DCE = {
+		829D3E0B26E48ADB00A4D2AF = {
 			isa = PBXGroup;
 			children = (
-				82326B4C2672732000018DCE /* PracticeAlgorithmWithC */,
-				82326B4B2672732000018DCE /* Products */,
+				829D3E1626E48ADB00A4D2AF /* Algorithm2 */,
+				829D3E1526E48ADB00A4D2AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		82326B4B2672732000018DCE /* Products */ = {
+		829D3E1526E48ADB00A4D2AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82326B4A2672732000018DCE /* PracticeAlgorithmWithC */,
+				829D3E1426E48ADB00A4D2AF /* Algorithm2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		82326B4C2672732000018DCE /* PracticeAlgorithmWithC */ = {
+		829D3E1626E48ADB00A4D2AF /* Algorithm2 */ = {
 			isa = PBXGroup;
 			children = (
-				829D3E2526E4927100A4D2AF /* DivideAndConquer */,
-				829D3E2426E4926300A4D2AF /* Heap */,
-				82326B4D2672732000018DCE /* main.c */,
+				829D3E2926E5E83B00A4D2AF /* Day2 */,
+				829D3E1E26E48AEC00A4D2AF /* Day1 */,
+				829D3E1726E48ADB00A4D2AF /* main.swift */,
 			);
-			path = PracticeAlgorithmWithC;
+			path = Algorithm2;
 			sourceTree = "<group>";
 		};
-		829D3E2426E4926300A4D2AF /* Heap */ = {
+		829D3E1E26E48AEC00A4D2AF /* Day1 */ = {
 			isa = PBXGroup;
 			children = (
+				829D3E1F26E48B7400A4D2AF /* Fibonacci.swift */,
+				829D3E2226E48D2500A4D2AF /* Tribonacci.swift */,
 			);
-			path = Heap;
+			path = Day1;
 			sourceTree = "<group>";
 		};
-		829D3E2526E4927100A4D2AF /* DivideAndConquer */ = {
+		829D3E2926E5E83B00A4D2AF /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
-				829D3E2626E4942100A4D2AF /* MergeSort.h */,
-				829D3E2726E4942100A4D2AF /* MergeSort.c */,
 			);
-			path = DivideAndConquer;
+			path = Day2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82326B492672732000018DCE /* PracticeAlgorithmWithC */ = {
+		829D3E1326E48ADB00A4D2AF /* Algorithm2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82326B512672732000018DCE /* Build configuration list for PBXNativeTarget "PracticeAlgorithmWithC" */;
+			buildConfigurationList = 829D3E1B26E48ADB00A4D2AF /* Build configuration list for PBXNativeTarget "Algorithm2" */;
 			buildPhases = (
-				82326B462672732000018DCE /* Sources */,
-				82326B472672732000018DCE /* Frameworks */,
-				82326B482672732000018DCE /* CopyFiles */,
+				829D3E1026E48ADB00A4D2AF /* Sources */,
+				829D3E1126E48ADB00A4D2AF /* Frameworks */,
+				829D3E1226E48ADB00A4D2AF /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PracticeAlgorithmWithC;
-			productName = PracticeAlgorithmWithC;
-			productReference = 82326B4A2672732000018DCE /* PracticeAlgorithmWithC */;
+			name = Algorithm2;
+			productName = Algorithm2;
+			productReference = 829D3E1426E48ADB00A4D2AF /* Algorithm2 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		82326B422672732000018DCE /* Project object */ = {
+		829D3E0C26E48ADB00A4D2AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					82326B492672732000018DCE = {
-						CreatedOnToolsVersion = 12.5;
+					829D3E1326E48ADB00A4D2AF = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 82326B452672732000018DCE /* Build configuration list for PBXProject "practiceAlgorithmWithC" */;
+			buildConfigurationList = 829D3E0F26E48ADB00A4D2AF /* Build configuration list for PBXProject "Algorithm2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,30 +126,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 82326B412672732000018DCE;
-			productRefGroup = 82326B4B2672732000018DCE /* Products */;
+			mainGroup = 829D3E0B26E48ADB00A4D2AF;
+			productRefGroup = 829D3E1526E48ADB00A4D2AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82326B492672732000018DCE /* PracticeAlgorithmWithC */,
+				829D3E1326E48ADB00A4D2AF /* Algorithm2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		82326B462672732000018DCE /* Sources */ = {
+		829D3E1026E48ADB00A4D2AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829D3E2826E4942100A4D2AF /* MergeSort.c in Sources */,
-				82326B4E2672732000018DCE /* main.c in Sources */,
+				829D3E2026E48B7400A4D2AF /* Fibonacci.swift in Sources */,
+				829D3E1826E48ADB00A4D2AF /* main.swift in Sources */,
+				829D3E2326E48D2500A4D2AF /* Tribonacci.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		82326B4F2672732000018DCE /* Debug */ = {
+		829D3E1926E48ADB00A4D2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,10 +206,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		82326B502672732000018DCE /* Release */ = {
+		829D3E1A26E48ADB00A4D2AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,51 +260,55 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		82326B522672732000018DCE /* Debug */ = {
+		829D3E1C26E48ADB00A4D2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TA9B4FGCP9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		82326B532672732000018DCE /* Release */ = {
+		829D3E1D26E48ADB00A4D2AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TA9B4FGCP9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82326B452672732000018DCE /* Build configuration list for PBXProject "practiceAlgorithmWithC" */ = {
+		829D3E0F26E48ADB00A4D2AF /* Build configuration list for PBXProject "Algorithm2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82326B4F2672732000018DCE /* Debug */,
-				82326B502672732000018DCE /* Release */,
+				829D3E1926E48ADB00A4D2AF /* Debug */,
+				829D3E1A26E48ADB00A4D2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82326B512672732000018DCE /* Build configuration list for PBXNativeTarget "PracticeAlgorithmWithC" */ = {
+		829D3E1B26E48ADB00A4D2AF /* Build configuration list for PBXNativeTarget "Algorithm2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82326B522672732000018DCE /* Debug */,
-				82326B532672732000018DCE /* Release */,
+				829D3E1C26E48ADB00A4D2AF /* Debug */,
+				829D3E1D26E48ADB00A4D2AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 82326B422672732000018DCE /* Project object */;
+	rootObject = 829D3E0C26E48ADB00A4D2AF /* Project object */;
 }
