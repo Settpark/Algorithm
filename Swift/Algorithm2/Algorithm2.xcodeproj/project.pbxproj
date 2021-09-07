@@ -10,6 +10,8 @@
 		829D3E1826E48ADB00A4D2AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E1726E48ADB00A4D2AF /* main.swift */; };
 		829D3E2026E48B7400A4D2AF /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E1F26E48B7400A4D2AF /* Fibonacci.swift */; };
 		829D3E2326E48D2500A4D2AF /* Tribonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E2226E48D2500A4D2AF /* Tribonacci.swift */; };
+		829D3E2B26E5FDF000A4D2AF /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E2A26E5FDF000A4D2AF /* MinCostClimbingStairs.swift */; };
+		829D3E2D26E5FF8900A4D2AF /* ClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E2C26E5FF8900A4D2AF /* ClimbingStairs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		829D3E1726E48ADB00A4D2AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		829D3E1F26E48B7400A4D2AF /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		829D3E2226E48D2500A4D2AF /* Tribonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tribonacci.swift; sourceTree = "<group>"; };
+		829D3E2A26E5FDF000A4D2AF /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
+		829D3E2C26E5FF8900A4D2AF /* ClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingStairs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		829D3E2926E5E83B00A4D2AF /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
+				829D3E2A26E5FDF000A4D2AF /* MinCostClimbingStairs.swift */,
+				829D3E2C26E5FF8900A4D2AF /* ClimbingStairs.swift */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			files = (
 				829D3E2026E48B7400A4D2AF /* Fibonacci.swift in Sources */,
 				829D3E1826E48ADB00A4D2AF /* main.swift in Sources */,
+				829D3E2D26E5FF8900A4D2AF /* ClimbingStairs.swift in Sources */,
+				829D3E2B26E5FDF000A4D2AF /* MinCostClimbingStairs.swift in Sources */,
 				829D3E2326E48D2500A4D2AF /* Tribonacci.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
