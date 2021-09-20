@@ -12,20 +12,27 @@
 
 using namespace std;
 
-int solution() {
-    int arr[202] = {};
-    int cnt = 0;
-    cin >> cnt;
-    for (int i=0; i<cnt; i++) {
-        int temp = 0;
-        cin >> temp;
-        arr[temp+100]++;
+void solution() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int N = 0;
+    cin >> N;
+    for (int i = 0; i < N; i++) {
+        int arr[26] = {};
+        string a,b;
+        cin >> a >> b;
+        for (auto e: a)
+            arr[e-'a']++;
+        for (auto e: b)
+            arr[e-'a']--;
+        bool isPossible = true;
+        for (auto i: arr)
+            if (i != 0) isPossible = false;
+        if (isPossible) cout << "Possible\n";
+        else cout << "Impossible\n";
     }
-    int result = 0;
-    cin >> result;
-    return arr[result+100];
 }
 
 int main(int argc, const char * argv[]) {
-    cout << solution();
+    solution();
 }
