@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8262E20E26F8F0650061D4F6 /* BOJ2577.cpp */; };
+		8262E21326F8FAE50061D4F6 /* BOJ11328.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */; };
 		8299C00D26F8566600A0964D /* BOJ10808.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00B26F8566600A0964D /* BOJ10808.cpp */; };
 		8299C01026F8570400A0964D /* PLUS100.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00E26F8570400A0964D /* PLUS100.cpp */; };
 		8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C01126F85C9C00A0964D /* BOJ10807.cpp */; };
@@ -27,6 +29,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8262E20E26F8F0650061D4F6 /* BOJ2577.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ2577.cpp; sourceTree = "<group>"; };
+		8262E20F26F8F0650061D4F6 /* BOJ2577.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ2577.hpp; sourceTree = "<group>"; };
+		8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ11328.cpp; sourceTree = "<group>"; };
+		8262E21226F8FAE50061D4F6 /* BOJ11328.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ11328.hpp; sourceTree = "<group>"; };
 		8299C00B26F8566600A0964D /* BOJ10808.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ10808.cpp; sourceTree = "<group>"; };
 		8299C00C26F8566600A0964D /* BOJ10808.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ10808.hpp; sourceTree = "<group>"; };
 		8299C00E26F8570400A0964D /* PLUS100.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PLUS100.cpp; sourceTree = "<group>"; };
@@ -61,6 +67,10 @@
 				8299C00F26F8570400A0964D /* PLUS100.hpp */,
 				8299C01126F85C9C00A0964D /* BOJ10807.cpp */,
 				8299C01226F85C9C00A0964D /* BOJ10807.hpp */,
+				8262E20E26F8F0650061D4F6 /* BOJ2577.cpp */,
+				8262E20F26F8F0650061D4F6 /* BOJ2577.hpp */,
+				8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */,
+				8262E21226F8FAE50061D4F6 /* BOJ11328.hpp */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -148,8 +158,10 @@
 			files = (
 				8299C00D26F8566600A0964D /* BOJ10808.cpp in Sources */,
 				8299C01026F8570400A0964D /* PLUS100.cpp in Sources */,
+				8262E21326F8FAE50061D4F6 /* BOJ11328.cpp in Sources */,
 				8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */,
 				82A5F06826F6DB4600676B09 /* ArrayBasic.cpp in Sources */,
+				8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */,
 				82FE28FD268EF95500C20D21 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
