@@ -7,7 +7,5 @@
 
 import Foundation
 
-var tribo = Tribonacci.init()
-
-print(tribo.tribonacci(4))
+print(Solution1().solution(["con", "ryan", "apeach"], ["ryan con", "ryan con", "ryan con", "ryan con", "apeach con", "apeach con"], 2))
 

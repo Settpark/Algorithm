@@ -5,12 +5,27 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "Printer.hpp"
+#include <iostream>
+#include <string>
+#include <vector>
+#include "BOJ10807.hpp"
 
-int main(int argc, const char * argv[]) {
-    vector<int> arr {2, 1, 3, 2};
-    int location = 2;
-    
-    solution(arr, location);
+using namespace std;
+
+int solution() {
+    int arr[202] = {};
+    int cnt = 0;
+    cin >> cnt;
+    for (int i=0; i<cnt; i++) {
+        int temp = 0;
+        cin >> temp;
+        arr[temp+100]++;
+    }
+    int result = 0;
+    cin >> result;
+    return arr[result+100];
 }
 
+int main(int argc, const char * argv[]) {
+    cout << solution();
+}

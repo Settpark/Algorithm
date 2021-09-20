@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		828028D026959BAA00E7B700 /* Printer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 828028CE26959BAA00E7B700 /* Printer.cpp */; };
-		82AED3412690205600045E50 /* CantCompleteRace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82AED33F2690205600045E50 /* CantCompleteRace.cpp */; };
-		82AED34426902EAF00045E50 /* FeatureDevelopment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82AED34226902EAF00045E50 /* FeatureDevelopment.cpp */; };
+		8299C00D26F8566600A0964D /* BOJ10808.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00B26F8566600A0964D /* BOJ10808.cpp */; };
+		8299C01026F8570400A0964D /* PLUS100.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00E26F8570400A0964D /* PLUS100.cpp */; };
+		8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C01126F85C9C00A0964D /* BOJ10807.cpp */; };
+		82A5F06826F6DB4600676B09 /* ArrayBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A5F06626F6DB4600676B09 /* ArrayBasic.cpp */; };
 		82FE28FD268EF95500C20D21 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82FE28FC268EF95500C20D21 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		828028CE26959BAA00E7B700 /* Printer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Printer.cpp; sourceTree = "<group>"; };
-		828028CF26959BAA00E7B700 /* Printer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Printer.hpp; sourceTree = "<group>"; };
-		828028D126959BC200E7B700 /* AlgorithmCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmCommon.h; sourceTree = "<group>"; };
-		82AED33F2690205600045E50 /* CantCompleteRace.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CantCompleteRace.cpp; sourceTree = "<group>"; };
-		82AED3402690205600045E50 /* CantCompleteRace.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CantCompleteRace.hpp; sourceTree = "<group>"; };
-		82AED34226902EAF00045E50 /* FeatureDevelopment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FeatureDevelopment.cpp; sourceTree = "<group>"; };
-		82AED34326902EAF00045E50 /* FeatureDevelopment.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FeatureDevelopment.hpp; sourceTree = "<group>"; };
+		8299C00B26F8566600A0964D /* BOJ10808.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ10808.cpp; sourceTree = "<group>"; };
+		8299C00C26F8566600A0964D /* BOJ10808.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ10808.hpp; sourceTree = "<group>"; };
+		8299C00E26F8570400A0964D /* PLUS100.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PLUS100.cpp; sourceTree = "<group>"; };
+		8299C00F26F8570400A0964D /* PLUS100.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PLUS100.hpp; sourceTree = "<group>"; };
+		8299C01126F85C9C00A0964D /* BOJ10807.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ10807.cpp; sourceTree = "<group>"; };
+		8299C01226F85C9C00A0964D /* BOJ10807.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ10807.hpp; sourceTree = "<group>"; };
+		82A5F06626F6DB4600676B09 /* ArrayBasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayBasic.cpp; sourceTree = "<group>"; };
+		82A5F06726F6DB4600676B09 /* ArrayBasic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayBasic.hpp; sourceTree = "<group>"; };
 		82FE28F9268EF95500C20D21 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FE28FC268EF95500C20D21 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +50,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82A5F06526F6DB1F00676B09 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				82A5F06626F6DB4600676B09 /* ArrayBasic.cpp */,
+				82A5F06726F6DB4600676B09 /* ArrayBasic.hpp */,
+				8299C00B26F8566600A0964D /* BOJ10808.cpp */,
+				8299C00C26F8566600A0964D /* BOJ10808.hpp */,
+				8299C00E26F8570400A0964D /* PLUS100.cpp */,
+				8299C00F26F8570400A0964D /* PLUS100.hpp */,
+				8299C01126F85C9C00A0964D /* BOJ10807.cpp */,
+				8299C01226F85C9C00A0964D /* BOJ10807.hpp */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		82FE28F0268EF95500C20D21 = {
 			isa = PBXGroup;
 			children = (
@@ -67,14 +84,8 @@
 		82FE28FB268EF95500C20D21 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				82A5F06526F6DB1F00676B09 /* Array */,
 				82FE28FC268EF95500C20D21 /* main.cpp */,
-				82AED33F2690205600045E50 /* CantCompleteRace.cpp */,
-				82AED3402690205600045E50 /* CantCompleteRace.hpp */,
-				82AED34226902EAF00045E50 /* FeatureDevelopment.cpp */,
-				82AED34326902EAF00045E50 /* FeatureDevelopment.hpp */,
-				828028CE26959BAA00E7B700 /* Printer.cpp */,
-				828028CF26959BAA00E7B700 /* Printer.hpp */,
-				828028D126959BC200E7B700 /* AlgorithmCommon.h */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -135,10 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828028D026959BAA00E7B700 /* Printer.cpp in Sources */,
+				8299C00D26F8566600A0964D /* BOJ10808.cpp in Sources */,
+				8299C01026F8570400A0964D /* PLUS100.cpp in Sources */,
+				8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */,
+				82A5F06826F6DB4600676B09 /* ArrayBasic.cpp in Sources */,
 				82FE28FD268EF95500C20D21 /* main.cpp in Sources */,
-				82AED34426902EAF00045E50 /* FeatureDevelopment.cpp in Sources */,
-				82AED3412690205600045E50 /* CantCompleteRace.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

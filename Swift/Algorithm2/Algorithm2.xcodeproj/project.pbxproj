@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8287416A26EC6D7B00A0B296 /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8287416926EC6D7B00A0B296 /* Solution1.swift */; };
 		829D3E1826E48ADB00A4D2AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E1726E48ADB00A4D2AF /* main.swift */; };
 		829D3E2026E48B7400A4D2AF /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E1F26E48B7400A4D2AF /* Fibonacci.swift */; };
 		829D3E2326E48D2500A4D2AF /* Tribonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D3E2226E48D2500A4D2AF /* Tribonacci.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8287416926EC6D7B00A0B296 /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
 		829D3E1426E48ADB00A4D2AF /* Algorithm2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm2; sourceTree = BUILT_PRODUCTS_DIR; };
 		829D3E1726E48ADB00A4D2AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		829D3E1F26E48B7400A4D2AF /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8287416826EC6D6200A0B296 /* Kakao_CodingTest */ = {
+			isa = PBXGroup;
+			children = (
+				8287416926EC6D7B00A0B296 /* Solution1.swift */,
+			);
+			path = Kakao_CodingTest;
+			sourceTree = "<group>";
+		};
 		829D3E0B26E48ADB00A4D2AF = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 		829D3E1626E48ADB00A4D2AF /* Algorithm2 */ = {
 			isa = PBXGroup;
 			children = (
+				8287416826EC6D6200A0B296 /* Kakao_CodingTest */,
 				829D3E2926E5E83B00A4D2AF /* Day2 */,
 				829D3E1E26E48AEC00A4D2AF /* Day1 */,
 				829D3E1726E48ADB00A4D2AF /* main.swift */,
@@ -149,6 +160,7 @@
 			files = (
 				829D3E2026E48B7400A4D2AF /* Fibonacci.swift in Sources */,
 				829D3E1826E48ADB00A4D2AF /* main.swift in Sources */,
+				8287416A26EC6D7B00A0B296 /* Solution1.swift in Sources */,
 				829D3E2D26E5FF8900A4D2AF /* ClimbingStairs.swift in Sources */,
 				829D3E2B26E5FDF000A4D2AF /* MinCostClimbingStairs.swift in Sources */,
 				829D3E2326E48D2500A4D2AF /* Tribonacci.swift in Sources */,

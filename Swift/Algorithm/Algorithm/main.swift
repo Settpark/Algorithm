@@ -7,6 +7,6 @@
 
 import Foundation
 
-let a = RotateArray()
-var arr = [-1,-100,3,99]
-a.rotate(&arr, 2)
+var a = [1, 3, 2, 1, 2, 1, 5, 3, 3, 4, 2]
+
+print(abcdefg().solution(&a))
