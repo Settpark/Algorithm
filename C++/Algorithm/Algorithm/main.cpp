@@ -5,14 +5,27 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "FeatureDevelopment.hpp"
+#include <iostream>
+#include <string>
+#include <vector>
+#include "BOJ10807.hpp"
 
-int main(int argc, const char * argv[]) {
-    vector<int> progress {95, 90, 99, 99, 80, 99};
-    vector<int> speeds {1, 1, 1, 1, 1, 1};
-    for (int i = 0; i<solution(progress, speeds).size(); i++) {
-        cout << solution(progress, speeds)[i] << endl;
+using namespace std;
+
+int solution() {
+    int arr[202] = {};
+    int cnt = 0;
+    cin >> cnt;
+    for (int i=0; i<cnt; i++) {
+        int temp = 0;
+        cin >> temp;
+        arr[temp+100]++;
     }
-    return 0;
+    int result = 0;
+    cin >> result;
+    return arr[result+100];
 }
 
+int main(int argc, const char * argv[]) {
+    cout << solution();
+}
