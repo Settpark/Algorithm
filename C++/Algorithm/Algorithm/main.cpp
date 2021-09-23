@@ -5,8 +5,8 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "BOJ10828.hpp"
+#include "QueueBasic.hpp"
 
 int main(int argc, const char * argv[]) {
-    BOJ10828().solution();
+    QueueBasic().solution();
 }
