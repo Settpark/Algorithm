@@ -12,3 +12,7 @@
 ### C++ Stack
 
 - [스택 정리](https://secretive-bath-afa.notion.site/Stack-837daa7bdc414de3bce2920cf96f2dfd)
+
+### C++ Queue
+
+- [큐 정리](https://secretive-bath-afa.notion.site/Queue-8eeefd030320433383441d7cd77d63db)
