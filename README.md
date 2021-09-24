@@ -16,3 +16,7 @@
 ### C++ Queue
 
 - [큐 정리](https://secretive-bath-afa.notion.site/Queue-8eeefd030320433383441d7cd77d63db)
+
+### C++ Deque
+
+- [덱 정리](https://secretive-bath-afa.notion.site/Deque-481276933b7843b7a7dc42aec02229b5)
