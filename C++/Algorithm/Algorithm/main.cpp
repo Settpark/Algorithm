@@ -5,8 +5,8 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "QueueBasic.hpp"
+#include "DequeBasic.hpp"
 
 int main(int argc, const char * argv[]) {
-    QueueBasic().solution();
+    DequeBasic().solution();
 }
