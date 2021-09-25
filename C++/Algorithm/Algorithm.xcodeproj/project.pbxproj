@@ -16,6 +16,7 @@
 		829FDCA026FC1DD600C927F7 /* BOJ10828.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 829FDC9E26FC1DD600C927F7 /* BOJ10828.cpp */; };
 		82A14EFE26FDB75D0090BFA9 /* DequeBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A14EFC26FDB75D0090BFA9 /* DequeBasic.cpp */; };
 		82A23E4A26FB5CCB006F60CB /* BOJ1406.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A23E4826FB5CCB006F60CB /* BOJ1406.cpp */; };
+		82A400CE26FF3A340097D3A1 /* BOJ4949.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A400CC26FF3A340097D3A1 /* BOJ4949.cpp */; };
 		82A5F06826F6DB4600676B09 /* ArrayBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A5F06626F6DB4600676B09 /* ArrayBasic.cpp */; };
 		82A80DF626FCE89400DC5398 /* QueueBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A80DF426FCE89400DC5398 /* QueueBasic.cpp */; };
 		82B85AD126FA3BB100ACCC49 /* Traverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B85ACF26FA3BB100ACCC49 /* Traverse.cpp */; };
@@ -54,6 +55,8 @@
 		82A14EFD26FDB75D0090BFA9 /* DequeBasic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DequeBasic.hpp; sourceTree = "<group>"; };
 		82A23E4826FB5CCB006F60CB /* BOJ1406.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ1406.cpp; sourceTree = "<group>"; };
 		82A23E4926FB5CCB006F60CB /* BOJ1406.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ1406.hpp; sourceTree = "<group>"; };
+		82A400CC26FF3A340097D3A1 /* BOJ4949.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ4949.cpp; sourceTree = "<group>"; };
+		82A400CD26FF3A340097D3A1 /* BOJ4949.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ4949.hpp; sourceTree = "<group>"; };
 		82A5F06626F6DB4600676B09 /* ArrayBasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayBasic.cpp; sourceTree = "<group>"; };
 		82A5F06726F6DB4600676B09 /* ArrayBasic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayBasic.hpp; sourceTree = "<group>"; };
 		82A80DF426FCE89400DC5398 /* QueueBasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueBasic.cpp; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				829FDC9C26FC1AA200C927F7 /* StackBasic.hpp */,
 				829FDC9E26FC1DD600C927F7 /* BOJ10828.cpp */,
 				829FDC9F26FC1DD600C927F7 /* BOJ10828.hpp */,
+				82A400CC26FF3A340097D3A1 /* BOJ4949.cpp */,
+				82A400CD26FF3A340097D3A1 /* BOJ4949.hpp */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				8262E21326F8FAE50061D4F6 /* BOJ11328.cpp in Sources */,
 				8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */,
 				82A5F06826F6DB4600676B09 /* ArrayBasic.cpp in Sources */,
+				82A400CE26FF3A340097D3A1 /* BOJ4949.cpp in Sources */,
 				82A23E4A26FB5CCB006F60CB /* BOJ1406.cpp in Sources */,
 				8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */,
 				82A14EFE26FDB75D0090BFA9 /* DequeBasic.cpp in Sources */,
