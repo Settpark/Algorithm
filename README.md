@@ -20,3 +20,7 @@
 ### C++ Deque
 
 - [덱 정리](https://secretive-bath-afa.notion.site/Deque-481276933b7843b7a7dc42aec02229b5)
+
+### C++ Stack의 활용
+
+- [스택의 활용 정리](https://secretive-bath-afa.notion.site/54deaeb893b14487a5dd1714c405358f)
