@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8262E20E26F8F0650061D4F6 /* BOJ2577.cpp */; };
 		8262E21326F8FAE50061D4F6 /* BOJ11328.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */; };
+		828183B7270198740050B4DF /* BOJ7576.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 828183B5270198740050B4DF /* BOJ7576.cpp */; };
 		8299C00D26F8566600A0964D /* BOJ10808.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00B26F8566600A0964D /* BOJ10808.cpp */; };
 		8299C01026F8570400A0964D /* PLUS100.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00E26F8570400A0964D /* PLUS100.cpp */; };
 		8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C01126F85C9C00A0964D /* BOJ10807.cpp */; };
@@ -44,6 +45,8 @@
 		8262E20F26F8F0650061D4F6 /* BOJ2577.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ2577.hpp; sourceTree = "<group>"; };
 		8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ11328.cpp; sourceTree = "<group>"; };
 		8262E21226F8FAE50061D4F6 /* BOJ11328.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ11328.hpp; sourceTree = "<group>"; };
+		828183B5270198740050B4DF /* BOJ7576.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ7576.cpp; sourceTree = "<group>"; };
+		828183B6270198740050B4DF /* BOJ7576.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ7576.hpp; sourceTree = "<group>"; };
 		8299C00B26F8566600A0964D /* BOJ10808.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ10808.cpp; sourceTree = "<group>"; };
 		8299C00C26F8566600A0964D /* BOJ10808.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ10808.hpp; sourceTree = "<group>"; };
 		8299C00E26F8570400A0964D /* PLUS100.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PLUS100.cpp; sourceTree = "<group>"; };
@@ -120,6 +123,8 @@
 				82A2CC3A2700BD2A00CCDE96 /* BOJ1926.hpp */,
 				82A2CC3D2700CA0000CCDE96 /* BOJ2178.cpp */,
 				82A2CC3E2700CA0000CCDE96 /* BOJ2178.hpp */,
+				828183B5270198740050B4DF /* BOJ7576.cpp */,
+				828183B6270198740050B4DF /* BOJ7576.hpp */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 				829FDCA026FC1DD600C927F7 /* BOJ10828.cpp in Sources */,
 				8299C01026F8570400A0964D /* PLUS100.cpp in Sources */,
 				8262E21326F8FAE50061D4F6 /* BOJ11328.cpp in Sources */,
+				828183B7270198740050B4DF /* BOJ7576.cpp in Sources */,
 				8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */,
 				82A5F06826F6DB4600676B09 /* ArrayBasic.cpp in Sources */,
 				82A400CE26FF3A340097D3A1 /* BOJ4949.cpp in Sources */,
@@ -326,6 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -379,6 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
