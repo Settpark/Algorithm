@@ -13,6 +13,7 @@
 		8299C00D26F8566600A0964D /* BOJ10808.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00B26F8566600A0964D /* BOJ10808.cpp */; };
 		8299C01026F8570400A0964D /* PLUS100.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00E26F8570400A0964D /* PLUS100.cpp */; };
 		8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C01126F85C9C00A0964D /* BOJ10807.cpp */; };
+		829CE7AC270257C70048E0F8 /* DFSBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 829CE7AA270257C70048E0F8 /* DFSBasic.cpp */; };
 		829FDC9D26FC1AA200C927F7 /* StackBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 829FDC9B26FC1AA200C927F7 /* StackBasic.cpp */; };
 		829FDCA026FC1DD600C927F7 /* BOJ10828.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 829FDC9E26FC1DD600C927F7 /* BOJ10828.cpp */; };
 		82A14EFE26FDB75D0090BFA9 /* DequeBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A14EFC26FDB75D0090BFA9 /* DequeBasic.cpp */; };
@@ -53,6 +54,8 @@
 		8299C00F26F8570400A0964D /* PLUS100.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PLUS100.hpp; sourceTree = "<group>"; };
 		8299C01126F85C9C00A0964D /* BOJ10807.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ10807.cpp; sourceTree = "<group>"; };
 		8299C01226F85C9C00A0964D /* BOJ10807.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ10807.hpp; sourceTree = "<group>"; };
+		829CE7AA270257C70048E0F8 /* DFSBasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DFSBasic.cpp; sourceTree = "<group>"; };
+		829CE7AB270257C70048E0F8 /* DFSBasic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DFSBasic.hpp; sourceTree = "<group>"; };
 		829FDC9B26FC1AA200C927F7 /* StackBasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackBasic.cpp; sourceTree = "<group>"; };
 		829FDC9C26FC1AA200C927F7 /* StackBasic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackBasic.hpp; sourceTree = "<group>"; };
 		829FDC9E26FC1DD600C927F7 /* BOJ10828.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ10828.cpp; sourceTree = "<group>"; };
@@ -92,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		829CE7A9270257B80048E0F8 /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				829CE7AA270257C70048E0F8 /* DFSBasic.cpp */,
+				829CE7AB270257C70048E0F8 /* DFSBasic.hpp */,
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
 		829FDC9A26FC1A6900C927F7 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +201,7 @@
 		82FE28FB268EF95500C20D21 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				829CE7A9270257B80048E0F8 /* DFS */,
 				82A2CC352700B4FF00CCDE96 /* BFS */,
 				82A14EFB26FDB7430090BFA9 /* Deque */,
 				82A80DF326FCE88200DC5398 /* Queue */,
@@ -272,6 +285,7 @@
 				82A23E4A26FB5CCB006F60CB /* BOJ1406.cpp in Sources */,
 				82A2CC3F2700CA0000CCDE96 /* BOJ2178.cpp in Sources */,
 				8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */,
+				829CE7AC270257C70048E0F8 /* DFSBasic.cpp in Sources */,
 				82A14EFE26FDB75D0090BFA9 /* DequeBasic.cpp in Sources */,
 				82FE28FD268EF95500C20D21 /* main.cpp in Sources */,
 				82B85AD426FA472B00ACCC49 /* List_STL.cpp in Sources */,
