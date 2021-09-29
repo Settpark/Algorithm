@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		823793F9270463160084EB6C /* BOJ1629.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 823793F7270463160084EB6C /* BOJ1629.cpp */; };
 		8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8262E20E26F8F0650061D4F6 /* BOJ2577.cpp */; };
 		8262E21326F8FAE50061D4F6 /* BOJ11328.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */; };
 		828183B7270198740050B4DF /* BOJ7576.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 828183B5270198740050B4DF /* BOJ7576.cpp */; };
@@ -42,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		823793F7270463160084EB6C /* BOJ1629.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ1629.cpp; sourceTree = "<group>"; };
+		823793F8270463160084EB6C /* BOJ1629.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ1629.hpp; sourceTree = "<group>"; };
 		8262E20E26F8F0650061D4F6 /* BOJ2577.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ2577.cpp; sourceTree = "<group>"; };
 		8262E20F26F8F0650061D4F6 /* BOJ2577.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ2577.hpp; sourceTree = "<group>"; };
 		8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ11328.cpp; sourceTree = "<group>"; };
@@ -95,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		823793F6270462FD0084EB6C /* Recursive */ = {
+			isa = PBXGroup;
+			children = (
+				823793F7270463160084EB6C /* BOJ1629.cpp */,
+				823793F8270463160084EB6C /* BOJ1629.hpp */,
+			);
+			path = Recursive;
+			sourceTree = "<group>";
+		};
 		829CE7A9270257B80048E0F8 /* DFS */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +213,7 @@
 		82FE28FB268EF95500C20D21 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				823793F6270462FD0084EB6C /* Recursive */,
 				829CE7A9270257B80048E0F8 /* DFS */,
 				82A2CC352700B4FF00CCDE96 /* BFS */,
 				82A14EFB26FDB7430090BFA9 /* Deque */,
@@ -282,6 +295,7 @@
 				82A5F06826F6DB4600676B09 /* ArrayBasic.cpp in Sources */,
 				82A400CE26FF3A340097D3A1 /* BOJ4949.cpp in Sources */,
 				82A2CC382700B50E00CCDE96 /* BFSBasic.cpp in Sources */,
+				823793F9270463160084EB6C /* BOJ1629.cpp in Sources */,
 				82A23E4A26FB5CCB006F60CB /* BOJ1406.cpp in Sources */,
 				82A2CC3F2700CA0000CCDE96 /* BOJ2178.cpp in Sources */,
 				8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */,
