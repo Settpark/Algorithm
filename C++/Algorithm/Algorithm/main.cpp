@@ -5,8 +5,8 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "BOJ7576.hpp"
+#include "BOJ1629.hpp"
 
 int main(int argc, const char * argv[]) {
-    BOJ7576().solution();
+    BOJ1629().solution();
 }
