@@ -28,3 +28,7 @@
 ### C++ BFS
 
 - [BFS 정리](https://secretive-bath-afa.notion.site/BFS-82c91a048a594885aba4146d832ecda4)
+
+### C++ Recursive (귀납적 사고 핵 어려움)
+
+- [재귀 정리](https://secretive-bath-afa.notion.site/Recursive-26a18f368c494f2387b89d7ad11166b8)
