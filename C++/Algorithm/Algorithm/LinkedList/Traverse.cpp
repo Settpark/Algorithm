@@ -10,7 +10,7 @@
 void Traverse::solution() {
     int capacity = 100;
     int data[capacity], pre[capacity], nxt[capacity];
-    int unused = 1;
+    //int unused = 1;
     
     fill(pre, pre+capacity, -1);
     fill(nxt, nxt+capacity, -1);
