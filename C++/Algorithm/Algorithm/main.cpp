@@ -5,8 +5,10 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "BOJ1629.hpp"
+#include "BOJ11729.hpp"
 
 int main(int argc, const char * argv[]) {
-    BOJ1629().solution();
+    int n;
+    cin >> n;
+    cout << (3<<1);
 }
