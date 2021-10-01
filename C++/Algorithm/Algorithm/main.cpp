@@ -5,10 +5,9 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "BOJ11729.hpp"
+#include "BOJ15649.hpp"
 
 int main(int argc, const char * argv[]) {
-    int n;
-    cin >> n;
-    cout << (3<<1);
+    BOJ15649 pro = BOJ15649();
+    pro.solution();
 }
