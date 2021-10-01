@@ -32,3 +32,7 @@
 ### C++ Recursive (귀납적 사고 핵 어려움)
 
 - [재귀 정리](https://secretive-bath-afa.notion.site/Recursive-26a18f368c494f2387b89d7ad11166b8)
+
+### C++ Backtracking
+
+- [백트래킹 정리](https://secretive-bath-afa.notion.site/BackTracking-d0cf15044eb84947a398eeb3f5c4c8c1)
