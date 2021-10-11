@@ -29,6 +29,7 @@
 		82A80DF626FCE89400DC5398 /* QueueBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82A80DF426FCE89400DC5398 /* QueueBasic.cpp */; };
 		82B85AD126FA3BB100ACCC49 /* Traverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B85ACF26FA3BB100ACCC49 /* Traverse.cpp */; };
 		82B85AD426FA472B00ACCC49 /* List_STL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82B85AD226FA472B00ACCC49 /* List_STL.cpp */; };
+		82F0B43927145EC900EDF7AC /* BOJ13300.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82F0B43727145EC900EDF7AC /* BOJ13300.cpp */; };
 		82FE28FD268EF95500C20D21 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82FE28FC268EF95500C20D21 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,8 @@
 		82B85AD026FA3BB100ACCC49 /* Traverse.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Traverse.hpp; sourceTree = "<group>"; };
 		82B85AD226FA472B00ACCC49 /* List_STL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = List_STL.cpp; sourceTree = "<group>"; };
 		82B85AD326FA472B00ACCC49 /* List_STL.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List_STL.hpp; sourceTree = "<group>"; };
+		82F0B43727145EC900EDF7AC /* BOJ13300.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ13300.cpp; sourceTree = "<group>"; };
+		82F0B43827145EC900EDF7AC /* BOJ13300.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ13300.hpp; sourceTree = "<group>"; };
 		82FE28F9268EF95500C20D21 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FE28FC268EF95500C20D21 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +188,8 @@
 				8262E20F26F8F0650061D4F6 /* BOJ2577.hpp */,
 				8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */,
 				8262E21226F8FAE50061D4F6 /* BOJ11328.hpp */,
+				82F0B43727145EC900EDF7AC /* BOJ13300.cpp */,
+				82F0B43827145EC900EDF7AC /* BOJ13300.hpp */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 				82A14EFE26FDB75D0090BFA9 /* DequeBasic.cpp in Sources */,
 				82FE28FD268EF95500C20D21 /* main.cpp in Sources */,
 				82B85AD426FA472B00ACCC49 /* List_STL.cpp in Sources */,
+				82F0B43927145EC900EDF7AC /* BOJ13300.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
