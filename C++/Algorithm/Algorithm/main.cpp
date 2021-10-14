@@ -5,12 +5,11 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "PNewID.hpp"
+#include "Permutation.hpp"
 
 int main(int argc, const char * argv[]) {
-    PNewID newid = PNewID();
-    
-    cout << newid.solution("=.=");
+    Permutation per = Permutation();
+    per.solution("abcd", 0, 4, 3);
     return 0;
 }
 
