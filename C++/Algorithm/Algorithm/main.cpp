@@ -5,11 +5,13 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "Permutation.hpp"
+#include "MenuRenewal.hpp"
 
 int main(int argc, const char * argv[]) {
-    Permutation per = Permutation();
-    per.solution("abcd", 0, 4, 3);
+    MenuRenewal menu = MenuRenewal();
+    vector<string> v = {"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"};
+    for (auto e: menu.solution(v, {2,3,4}))
+        cout << e << ' ';
     return 0;
 }
 

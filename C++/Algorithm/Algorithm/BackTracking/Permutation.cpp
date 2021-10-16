@@ -16,8 +16,8 @@ void Permutation::swap(char &a, char &b) {
 
 void Permutation::solution(string s, int depth, int n, int r) {
     if (depth == r) {
-        for (auto e: s) {
-            cout << e << ' ';
+        for (int i = 0; i<r; i++) {
+            cout << s[i];
         }
         cout << '\n';
     }
