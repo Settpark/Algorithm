@@ -17,6 +17,7 @@
 		8299C00D26F8566600A0964D /* BOJ10808.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00B26F8566600A0964D /* BOJ10808.cpp */; };
 		8299C01026F8570400A0964D /* PLUS100.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00E26F8570400A0964D /* PLUS100.cpp */; };
 		8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C01126F85C9C00A0964D /* BOJ10807.cpp */; };
+		829C0760271DB3F200AC601C /* BOJ2231.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 829C075E271DB3F200AC601C /* BOJ2231.cpp */; };
 		829CE7AC270257C70048E0F8 /* DFSBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 829CE7AA270257C70048E0F8 /* DFSBasic.cpp */; };
 		829FDC9D26FC1AA200C927F7 /* StackBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 829FDC9B26FC1AA200C927F7 /* StackBasic.cpp */; };
 		829FDCA026FC1DD600C927F7 /* BOJ10828.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 829FDC9E26FC1DD600C927F7 /* BOJ10828.cpp */; };
@@ -69,6 +70,8 @@
 		8299C00F26F8570400A0964D /* PLUS100.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PLUS100.hpp; sourceTree = "<group>"; };
 		8299C01126F85C9C00A0964D /* BOJ10807.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ10807.cpp; sourceTree = "<group>"; };
 		8299C01226F85C9C00A0964D /* BOJ10807.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ10807.hpp; sourceTree = "<group>"; };
+		829C075E271DB3F200AC601C /* BOJ2231.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ2231.cpp; sourceTree = "<group>"; };
+		829C075F271DB3F200AC601C /* BOJ2231.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ2231.hpp; sourceTree = "<group>"; };
 		829CE7AA270257C70048E0F8 /* DFSBasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DFSBasic.cpp; sourceTree = "<group>"; };
 		829CE7AB270257C70048E0F8 /* DFSBasic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DFSBasic.hpp; sourceTree = "<group>"; };
 		829FDC9B26FC1AA200C927F7 /* StackBasic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackBasic.cpp; sourceTree = "<group>"; };
@@ -241,6 +244,8 @@
 			children = (
 				82DD32E127180B9600C819BB /* MenuRenewal.cpp */,
 				82DD32E227180B9600C819BB /* MenuRenewal.hpp */,
+				829C075E271DB3F200AC601C /* BOJ2231.cpp */,
+				829C075F271DB3F200AC601C /* BOJ2231.hpp */,
 			);
 			path = BruteForce;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				8299C01326F85C9C00A0964D /* BOJ10807.cpp in Sources */,
 				82A5F06826F6DB4600676B09 /* ArrayBasic.cpp in Sources */,
 				82A400CE26FF3A340097D3A1 /* BOJ4949.cpp in Sources */,
+				829C0760271DB3F200AC601C /* BOJ2231.cpp in Sources */,
 				827D59F927188BBB00D63531 /* Permutation.cpp in Sources */,
 				82A2CC382700B50E00CCDE96 /* BFSBasic.cpp in Sources */,
 				82029A7B2706EB3000B6D383 /* BOJ15649.cpp in Sources */,
