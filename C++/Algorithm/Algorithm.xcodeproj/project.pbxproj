@@ -12,6 +12,7 @@
 		826202D9271525CE00B1BB19 /* PNewID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 826202D7271525CE00B1BB19 /* PNewID.cpp */; };
 		8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8262E20E26F8F0650061D4F6 /* BOJ2577.cpp */; };
 		8262E21326F8FAE50061D4F6 /* BOJ11328.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */; };
+		827BAF72271EE65000BCABA2 /* POpenChatting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 827BAF70271EE65000BCABA2 /* POpenChatting.cpp */; };
 		827D59F927188BBB00D63531 /* Permutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 827D59F727188BBB00D63531 /* Permutation.cpp */; };
 		828183B7270198740050B4DF /* BOJ7576.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 828183B5270198740050B4DF /* BOJ7576.cpp */; };
 		8299C00D26F8566600A0964D /* BOJ10808.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8299C00B26F8566600A0964D /* BOJ10808.cpp */; };
@@ -60,6 +61,8 @@
 		8262E20F26F8F0650061D4F6 /* BOJ2577.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ2577.hpp; sourceTree = "<group>"; };
 		8262E21126F8FAE50061D4F6 /* BOJ11328.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ11328.cpp; sourceTree = "<group>"; };
 		8262E21226F8FAE50061D4F6 /* BOJ11328.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ11328.hpp; sourceTree = "<group>"; };
+		827BAF70271EE65000BCABA2 /* POpenChatting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = POpenChatting.cpp; sourceTree = "<group>"; };
+		827BAF71271EE65000BCABA2 /* POpenChatting.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = POpenChatting.hpp; sourceTree = "<group>"; };
 		827D59F727188BBB00D63531 /* Permutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Permutation.cpp; sourceTree = "<group>"; };
 		827D59F827188BBB00D63531 /* Permutation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Permutation.hpp; sourceTree = "<group>"; };
 		828183B5270198740050B4DF /* BOJ7576.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ7576.cpp; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 			children = (
 				826202D7271525CE00B1BB19 /* PNewID.cpp */,
 				826202D8271525CE00B1BB19 /* PNewID.hpp */,
+				827BAF70271EE65000BCABA2 /* POpenChatting.cpp */,
+				827BAF71271EE65000BCABA2 /* POpenChatting.hpp */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -364,6 +369,7 @@
 				82A23E4A26FB5CCB006F60CB /* BOJ1406.cpp in Sources */,
 				82A2CC3F2700CA0000CCDE96 /* BOJ2178.cpp in Sources */,
 				8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */,
+				827BAF72271EE65000BCABA2 /* POpenChatting.cpp in Sources */,
 				829CE7AC270257C70048E0F8 /* DFSBasic.cpp in Sources */,
 				82A14EFE26FDB75D0090BFA9 /* DequeBasic.cpp in Sources */,
 				82FE28FD268EF95500C20D21 /* main.cpp in Sources */,
