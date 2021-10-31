@@ -36,3 +36,7 @@
 ### C++ Backtracking
 
 - [백트래킹 정리](https://secretive-bath-afa.notion.site/BackTracking-d0cf15044eb84947a398eeb3f5c4c8c1)
+
+### C++ binarySearch
+
+- [이분탐색 정리](https://secretive-bath-afa.notion.site/f91e401e9c0244d0ade30e14ab57cc1b)
