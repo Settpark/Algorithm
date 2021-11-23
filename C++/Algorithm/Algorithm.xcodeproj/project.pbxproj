@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82029A7B2706EB3000B6D383 /* BOJ15649.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82029A792706EB3000B6D383 /* BOJ15649.cpp */; };
+		822AA1A1274CC3E6007CE296 /* BOJ12852.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 822AA19F274CC3E6007CE296 /* BOJ12852.cpp */; };
 		823793F9270463160084EB6C /* BOJ1629.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 823793F7270463160084EB6C /* BOJ1629.cpp */; };
 		826202D9271525CE00B1BB19 /* PNewID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 826202D7271525CE00B1BB19 /* PNewID.cpp */; };
 		8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8262E20E26F8F0650061D4F6 /* BOJ2577.cpp */; };
@@ -60,6 +61,8 @@
 /* Begin PBXFileReference section */
 		82029A792706EB3000B6D383 /* BOJ15649.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ15649.cpp; sourceTree = "<group>"; };
 		82029A7A2706EB3000B6D383 /* BOJ15649.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ15649.hpp; sourceTree = "<group>"; };
+		822AA19F274CC3E6007CE296 /* BOJ12852.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ12852.cpp; sourceTree = "<group>"; };
+		822AA1A0274CC3E6007CE296 /* BOJ12852.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ12852.hpp; sourceTree = "<group>"; };
 		823793F7270463160084EB6C /* BOJ1629.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ1629.cpp; sourceTree = "<group>"; };
 		823793F8270463160084EB6C /* BOJ1629.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ1629.hpp; sourceTree = "<group>"; };
 		826202D7271525CE00B1BB19 /* PNewID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PNewID.cpp; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 				82D1E997274A3B750068B253 /* BOJ11726.hpp */,
 				82D32272274B4B2D0085862F /* BOJ11659.cpp */,
 				82D32273274B4B2D0085862F /* BOJ11659.hpp */,
+				822AA19F274CC3E6007CE296 /* BOJ12852.cpp */,
+				822AA1A0274CC3E6007CE296 /* BOJ12852.hpp */,
 			);
 			path = Dynamic_Programming;
 			sourceTree = "<group>";
@@ -422,6 +427,7 @@
 				82029A7B2706EB3000B6D383 /* BOJ15649.cpp in Sources */,
 				823793F9270463160084EB6C /* BOJ1629.cpp in Sources */,
 				82A23E4A26FB5CCB006F60CB /* BOJ1406.cpp in Sources */,
+				822AA1A1274CC3E6007CE296 /* BOJ12852.cpp in Sources */,
 				82CD81BB274972A200A2A0CB /* BOJ2579.cpp in Sources */,
 				82A2CC3F2700CA0000CCDE96 /* BOJ2178.cpp in Sources */,
 				8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */,
