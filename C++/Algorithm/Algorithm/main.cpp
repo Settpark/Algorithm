@@ -5,12 +5,10 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "Sort/BOJ1431.hpp"
-
-int arr[1000007];
+#include "BinarySearchTree/BOJ7662.hpp"
 
 int main(int argc, const char * argv[]) {
-    BOJ1431 b = BOJ1431();
+    BOJ7662 b = BOJ7662();
     b.solution();
 }
 
