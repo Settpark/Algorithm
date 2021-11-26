@@ -46,6 +46,7 @@
 		82D32274274B4B2D0085862F /* BOJ11659.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D32272274B4B2D0085862F /* BOJ11659.cpp */; };
 		82D380DE274CD3670016C6E1 /* BOJ11047.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D380DC274CD3670016C6E1 /* BOJ11047.cpp */; };
 		82D380E2274CDD550016C6E1 /* BOJ1931.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D380E0274CDD550016C6E1 /* BOJ1931.cpp */; };
+		82D97FDB27509CD60031E813 /* BOJ1431.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D97FD927509CD60031E813 /* BOJ1431.cpp */; };
 		82DD32E327180B9600C819BB /* MenuRenewal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82DD32E127180B9600C819BB /* MenuRenewal.cpp */; };
 		82F0B43927145EC900EDF7AC /* BOJ13300.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82F0B43727145EC900EDF7AC /* BOJ13300.cpp */; };
 		82F0DA7F274E03F700A9FCC7 /* BOJ18870.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82F0DA7D274E03F700A9FCC7 /* BOJ18870.cpp */; };
@@ -144,6 +145,8 @@
 		82D380DD274CD3670016C6E1 /* BOJ11047.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ11047.hpp; sourceTree = "<group>"; };
 		82D380E0274CDD550016C6E1 /* BOJ1931.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ1931.cpp; sourceTree = "<group>"; };
 		82D380E1274CDD550016C6E1 /* BOJ1931.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ1931.hpp; sourceTree = "<group>"; };
+		82D97FD927509CD60031E813 /* BOJ1431.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ1431.cpp; sourceTree = "<group>"; };
+		82D97FDA27509CD60031E813 /* BOJ1431.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ1431.hpp; sourceTree = "<group>"; };
 		82DD32E127180B9600C819BB /* MenuRenewal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MenuRenewal.cpp; sourceTree = "<group>"; };
 		82DD32E227180B9600C819BB /* MenuRenewal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MenuRenewal.hpp; sourceTree = "<group>"; };
 		82F0B43727145EC900EDF7AC /* BOJ13300.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ13300.cpp; sourceTree = "<group>"; };
@@ -354,6 +357,8 @@
 				8267611C274E2AC60006EBF8 /* BOJ2751.hpp */,
 				8267611E274E3BAE0006EBF8 /* QuickSortBasic.cpp */,
 				8267611F274E3BAE0006EBF8 /* QuickSortBasic.hpp */,
+				82D97FD927509CD60031E813 /* BOJ1431.cpp */,
+				82D97FDA27509CD60031E813 /* BOJ1431.hpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -493,6 +498,7 @@
 				829CE7AC270257C70048E0F8 /* DFSBasic.cpp in Sources */,
 				82676120274E3BAE0006EBF8 /* QuickSortBasic.cpp in Sources */,
 				82A14EFE26FDB75D0090BFA9 /* DequeBasic.cpp in Sources */,
+				82D97FDB27509CD60031E813 /* BOJ1431.cpp in Sources */,
 				82FE28FD268EF95500C20D21 /* main.cpp in Sources */,
 				82B85AD426FA472B00ACCC49 /* List_STL.cpp in Sources */,
 				82A2979A272ECC65001430AC /* Binarysearch.cpp in Sources */,
