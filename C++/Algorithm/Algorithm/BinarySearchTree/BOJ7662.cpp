@@ -36,3 +36,42 @@ void BOJ7662::solution() {
         }
     }
 }
+
+void BOJ7662::solution2() {
+    int n; cin >> n;
+    while(n--) {
+        int m; cin >> m;
+        set<int> s;
+        while(m--) {
+            char c; cin >> c;
+            if (c == 'D') {
+                int a; cin >> a;
+                if (s.empty()) continue;
+                if (a == 1) s.erase(prev(s.end()));
+                else if (a == -1) s.erase(s.begin());
+            } else {
+                int a; cin >> a;
+                s.insert(a);
+            }
+        }
+        if (s.empty()) cout << "EMPTY\n";
+        else { cout << *prev(s.end()) << ' ' << *s.begin() << '\n'; }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
