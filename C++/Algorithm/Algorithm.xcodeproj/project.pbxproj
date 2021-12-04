@@ -71,6 +71,7 @@
 		82F0B43927145EC900EDF7AC /* BOJ13300.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82F0B43727145EC900EDF7AC /* BOJ13300.cpp */; };
 		82F0DA7F274E03F700A9FCC7 /* BOJ18870.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82F0DA7D274E03F700A9FCC7 /* BOJ18870.cpp */; };
 		82F0DA83274E0C3400A9FCC7 /* BOJ11728.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82F0DA81274E0C3400A9FCC7 /* BOJ11728.cpp */; };
+		82FBF47D275B409F001236F6 /* PGKakaoCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82FBF47B275B409F001236F6 /* PGKakaoCode.cpp */; };
 		82FDA945275A459400D14416 /* resolvedDP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82FDA943275A459400D14416 /* resolvedDP.cpp */; };
 		82FE28FD268EF95500C20D21 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82FE28FC268EF95500C20D21 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -216,6 +217,8 @@
 		82F0DA7E274E03F700A9FCC7 /* BOJ18870.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ18870.hpp; sourceTree = "<group>"; };
 		82F0DA81274E0C3400A9FCC7 /* BOJ11728.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BOJ11728.cpp; sourceTree = "<group>"; };
 		82F0DA82274E0C3400A9FCC7 /* BOJ11728.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BOJ11728.hpp; sourceTree = "<group>"; };
+		82FBF47B275B409F001236F6 /* PGKakaoCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PGKakaoCode.cpp; sourceTree = "<group>"; };
+		82FBF47C275B409F001236F6 /* PGKakaoCode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PGKakaoCode.hpp; sourceTree = "<group>"; };
 		82FDA943275A459400D14416 /* resolvedDP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = resolvedDP.cpp; sourceTree = "<group>"; };
 		82FDA944275A459400D14416 /* resolvedDP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = resolvedDP.hpp; sourceTree = "<group>"; };
 		82FE28F9268EF95500C20D21 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -357,6 +360,8 @@
 				82A2CC3E2700CA0000CCDE96 /* BOJ2178.hpp */,
 				828183B5270198740050B4DF /* BOJ7576.cpp */,
 				828183B6270198740050B4DF /* BOJ7576.hpp */,
+				82FBF47B275B409F001236F6 /* PGKakaoCode.cpp */,
+				82FBF47C275B409F001236F6 /* PGKakaoCode.hpp */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
@@ -653,6 +658,7 @@
 				82CD81BB274972A200A2A0CB /* BOJ2579.cpp in Sources */,
 				82A2CC3F2700CA0000CCDE96 /* BOJ2178.cpp in Sources */,
 				8262E21026F8F0650061D4F6 /* BOJ2577.cpp in Sources */,
+				82FBF47D275B409F001236F6 /* PGKakaoCode.cpp in Sources */,
 				8201D678275A4502001299A4 /* resolvedVector.cpp in Sources */,
 				82D380DE274CD3670016C6E1 /* BOJ11047.cpp in Sources */,
 				82D0673D2757493100E27328 /* BOJ1158.cpp in Sources */,
