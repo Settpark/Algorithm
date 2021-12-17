@@ -16,7 +16,6 @@ void BOJ15649::solution() {
 }
 
 void BOJ15649::backTracking(int k) {
-    
     if (k == m) {
         for (int i = 0; i < m; i++) {
             cout << arr[i] << ' ';

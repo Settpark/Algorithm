@@ -5,12 +5,11 @@
 //  Created by 박정하 on 2021/07/02.
 //
 
-#include "BackTracking/BOJ15650.hpp"
+#include "Dynamic_Programming/BOJ15988.hpp"
+
+using namespace std;
 
 int main(void) {
-    BOJ15650 b = BOJ15650();
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cin >> b.n >> b.m;
-    b.tracking(0, 1);
+    BOJ15988 b = BOJ15988();
+    b.solution();
 }
