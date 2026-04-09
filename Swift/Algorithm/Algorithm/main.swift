@@ -2,21 +2,52 @@
 //  main.swift
 //  Algorithm
 //
-//  Created by 박정하 on 2021/07/05.
+//  Created by 박정하 on 2022/08/06.
 //
 
 import Foundation
 
-// 1. BABABABAAAA // 스택으로 풀걸.. N에 처리할 수 있다; 이중 포문으로 풀었는 데 꼭 끝나면 생각나요 개새끼,,
-// 2. 전구 켜진 횟수 //dp로 풀면 되는 데,,,
-// 3. [1,3,4,5,6,1] 동일한 숫자 나오면 가장 큰 값 // 얘도 DP로 풀면 되는데,,
-
-var k: String = "BABBAAAA"
-var a = Array(k)
-var ans = 0;
-
-for i in a.reversed() {
+func solution(_ commands: [String]) -> [Int] {
+    var light: [Int] = [Int](repeating: 0, count: 100001)
+    let arr1: [Int] = [Int](repeating: 0, count: 100001)
+    var arr: [[Int]] = [[Int]](repeating: arr1, count: 100001)
+    var x: Int = 0
+    var y: Int = 0
     
+    for command in commands {
+        if command == "FORWARD" {
+            x += 1
+            arr[y][x] += 1
+            light[y] += 1;
+        } else if command == "UP" {
+            y += 1
+            arr[y][x] += 1
+        } else if command == "BACK" {
+            let temp = x - 1;
+            if temp < 0 {
+                continue;
+            }
+            if arr[y][temp] != 0 {
+                arr[y][x] -= 1
+                x -= 1
+                light[y] -= 1;
+            }
+        } else if command == "DOWN" {
+            if (light[y] != 0 ) {
+                while arr[y][x] != 0 {
+                    arr[y][x] = 0;
+                    x-=1;
+                }
+                y -= 1;
+                continue;
+            }
+        }
+    }
+    var answer: [Int] = []
+    answer.append(x);
+    answer.append(y);
+    
+    return answer
 }
-print(ans)
 
+print(solution(["DOWN", "DOWN"]))

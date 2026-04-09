@@ -8,7 +8,7 @@
 #include "BOJ11659.hpp"
 
 int d[100007];
-int a[100007];
+int arr1[100007];
 
 void BOJ11659::solution() {
     ios::sync_with_stdio(0);
@@ -19,8 +19,8 @@ void BOJ11659::solution() {
     
     d[0] = 0;
     for (int i = 1; i<= n; i++) {
-        cin >> a[i];
-        d[i] = d[i-1] + a[i];
+        cin >> arr1[i];
+        d[i] = d[i-1] + arr1[i];
     }
     
     while(m--) {
