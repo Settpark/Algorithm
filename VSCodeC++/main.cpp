@@ -1,63 +1,41 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+vector<int> coins(21);
 int n;
-int mp, mf, ms, mv;
-vector<vector<int>> inputs(16);
-vector<pair<int, vector<int>>> answers;
 
 int main() {
+    // 뒷면이 위를 향하는 개수를 최소
     cin >> n;
-    cin >> mp >> mf >> ms >> mv;
 
     for (int i = 0; i < n; i++) {
-        int pi, fi, si, vi, ci;
-        cin >> pi >> fi >> si >> vi >> ci;
-        inputs[i].push_back(pi);
-        inputs[i].push_back(fi);
-        inputs[i].push_back(si);
-        inputs[i].push_back(vi);
-        inputs[i].push_back(ci);
+        string k;
+        cin >> k;
+        for (int j = 0; j < k.size(); j++) {
+            if (k[j] == 'T') {
+                coins[i] += (1 << j);
+            }
+        }
     }
-
+    int minimum = 987654321;
     for (int i = 0; i < (1 << n); i++) {
-        int a = 0, b = 0, c = 0, d = 0, e = 0;
-        vector<int> answerIdxs;
+        auto copied = coins;
         for (int j = 0; j < n; j++) {
             int targetIdx = (1 << j);
-            if (i & targetIdx) {
-                answerIdxs.push_back(j + 1);
-                a += inputs[j][0];
-                b += inputs[j][1];
-                c += inputs[j][2];
-                d += inputs[j][3];
-                e += inputs[j][4];
-                if (a >= mp && b >= mf && c >= ms && d >= mv) {
-                    answers.push_back({e, answerIdxs});
+            if (i & targetIdx) copied[j] ^= (1 << n) - 1; //i, j 잘 못 써서 메모리초과 발생
+        }
+        int currentCount = 0;
+        for (int i = 0; i < n; i++) {
+            int tailCount = 0;
+            int targetBit = (1 << i);
+            for (int j = 0; j < n; j++) {
+                if (copied[j] & targetBit) {  // T라면
+                    tailCount++;
                 }
             }
+            currentCount += min(tailCount, n - tailCount);
         }
+        minimum = min(minimum, currentCount);
     }
-    if (answers.size() == 0) {
-        cout << -1;
-        return 0;
-    }
-
-    int minimum = 987654321;
-    vector<int> finalAnswer;
-    for (auto e: answers) {
-        if (e.first < minimum) {
-            minimum = e.first;
-            finalAnswer = e.second;
-        } else if (e.first == minimum) {
-            if (finalAnswer > e.second) {
-                finalAnswer = e.second;
-            }
-        }
-    }
-    cout << minimum << '\n';
-    for (auto e: finalAnswer) {
-        cout << e << ' ';
-    }
-    return 0;
+    cout << minimum;
 }
