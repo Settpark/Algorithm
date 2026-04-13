@@ -34,7 +34,8 @@ int main()
                 copied[s] ^= (1 << n) - 1;
             }
         } //행을 뒤집는 연산식
-        for (int a = 0; a < n; a++)
+        int currentCount = 0;
+        for (int a = 0; a < n; a++) //열을 뒤집는데
         {
             int tailCount = 0;
             int targetBit = (1 << a);
@@ -45,22 +46,7 @@ int main()
                     tailCount++;
                 }
             }
-            if (tailCount > n / 2)
-            {
-                for (int c = 0; c < n; c++)
-                {
-                    copied[c] ^= targetBit;
-                }
-            }
-        }
-        int currentCount = 0;
-        for (int d = 0; d < n; d++) {
-            for (int e = 0; e<n; e++) {
-                int t = (1 << e);
-                if ((copied[d] & t)) {
-                    currentCount++;
-                }
-            }
+            currentCount += min(tailCount, n - tailCount); //이렇게 연산하면 뒤집었을때 결과도 어차피 보이기 때문에 바로 연산
         }
         minimum = min(currentCount, minimum);
     }
