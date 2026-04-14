@@ -1,41 +1,59 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<int> coins(21);
-int n;
+int N;
+int mp, mf, ms, mv;
+vector<pair<int, vector<int>>> inputs;
+vector<pair<int, vector<int>>> answers;  // 금액, idx
 
 int main() {
-    // 뒷면이 위를 향하는 개수를 최소
-    cin >> n;
+    cin >> N;
+    cin >> mp >> mf >> ms >> mv;
 
-    for (int i = 0; i < n; i++) {
-        string k;
-        cin >> k;
-        for (int j = 0; j < k.size(); j++) {
-            if (k[j] == 'T') {
-                coins[i] += (1 << j);
+    for (int i = 0; i < N; i++) {
+        int pi, fi, si, vi, ci;
+        cin >> pi >> fi >> si >> vi >> ci;
+        inputs.push_back({ci, {pi, fi, si, vi}});
+    }
+
+    for (int i = 0; i < (1 << N); i++) {
+        vector<int> idxs;
+        int sumPi = 0, sumFi = 0, sumSi = 0, sumVi = 0, sumCi = 0;
+        for (int j = 0; j < N; j++) {
+            int targetIdx = (1 << j); //j를 쉬프트 해야 함.
+            if (i & targetIdx) {
+                idxs.push_back(j+1);
+                sumPi += inputs[j].second[0];
+                sumFi += inputs[j].second[1];
+                sumSi += inputs[j].second[2];
+                sumVi += inputs[j].second[3];
+                sumCi += inputs[j].first;
             }
         }
+        if (sumPi >= mp && sumFi >= mf && sumSi >= ms && sumVi >= mv) {
+            answers.push_back({sumCi, idxs});
+        }
     }
+
+    if (answers.size() == 0) {
+        cout << -1;
+        return 0;
+    }
+
     int minimum = 987654321;
-    for (int i = 0; i < (1 << n); i++) {
-        auto copied = coins;
-        for (int j = 0; j < n; j++) {
-            int targetIdx = (1 << j);
-            if (i & targetIdx) copied[j] ^= (1 << n) - 1; //i, j 잘 못 써서 메모리초과 발생
+    vector<int> idxAnswer;
+    for (auto e : answers) {
+        if (minimum > e.first) {
+            minimum = e.first;
+            idxAnswer = e.second;
+        } else if (minimum == e.first) {
+            if (e.second < idxAnswer) idxAnswer = e.second;
         }
-        int currentCount = 0;
-        for (int i = 0; i < n; i++) {
-            int tailCount = 0;
-            int targetBit = (1 << i);
-            for (int j = 0; j < n; j++) {
-                if (copied[j] & targetBit) {  // T라면
-                    tailCount++;
-                }
-            }
-            currentCount += min(tailCount, n - tailCount);
-        }
-        minimum = min(minimum, currentCount);
     }
-    cout << minimum;
+
+    cout << minimum << '\n';
+    for (auto e : idxAnswer) {
+        cout << e << ' ';
+    }
+    return 0;
 }

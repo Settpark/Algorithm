@@ -1,55 +1,41 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+vector<int> coins(21);
 int n;
-vector<int> coin(21); //c 스타일의 배열은 얕은 복사가 발생함
 
-int main()
-{
-    cin >> n; // n은 20이하, 뒷면이 보이는 개수를 최소화
-    int minimum = 987654321;
-    for (int i = 0; i < n; i++)
-    {
-        int k = 0;
-        for (int j = 0; j < n; j++)
-        {
-            char l;
-            cin >> l;
-            if (l == 'T')
-            {
-                k |= (1 << j);
+int main() {
+    // 뒷면이 위를 향하는 개수를 최소
+    cin >> n;
+
+    for (int i = 0; i < n; i++) {
+        string k;
+        cin >> k;
+        for (int j = 0; j < k.size(); j++) {
+            if (k[j] == 'T') {
+                coins[i] += (1 << j);
             }
         }
-        coin[i] = k;
     }
-
-    for (int mask = 0; mask < (1 << n); mask++)
-    {
-        auto copied = coin;
-        for (int s = 0; s < n; s++)
-        {
-            int shifted = 1 << s;
-            if (mask & shifted)
-            {
-                copied[s] ^= (1 << n) - 1;
-            }
-        } //행을 뒤집는 연산식
+    int minimum = 987654321;
+    for (int i = 0; i < (1 << n); i++) {
+        auto copied = coins;
+        for (int j = 0; j < n; j++) {
+            int targetIdx = (1 << j);
+            if (i & targetIdx) copied[j] ^= (1 << n) - 1; //i, j 잘 못 써서 메모리초과 발생
+        }
         int currentCount = 0;
-        for (int a = 0; a < n; a++) //열을 뒤집는데
-        {
+        for (int i = 0; i < n; i++) {
             int tailCount = 0;
-            int targetBit = (1 << a);
-            for (int b = 0; b < n; b++)
-            {
-                if (copied[b] & targetBit)
-                {
+            int targetBit = (1 << i);
+            for (int j = 0; j < n; j++) {
+                if (copied[j] & targetBit) {  // T라면
                     tailCount++;
                 }
             }
-            currentCount += min(tailCount, n - tailCount); //이렇게 연산하면 뒤집었을때 결과도 어차피 보이기 때문에 바로 연산
+            currentCount += min(tailCount, n - tailCount);
         }
-        minimum = min(currentCount, minimum);
+        minimum = min(minimum, currentCount);
     }
     cout << minimum;
-    return 0;
 }
