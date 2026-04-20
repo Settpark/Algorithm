@@ -25,11 +25,6 @@ int main() {
             cin >> arr[y][x];
         }
     }
-    // for (int i = 0; i < N; i++) {
-    //     for (int j = 0; j < M; j++) {
-    //         if (arr[i][j] == 1 && isvisited[i][j] == false) {
-    //             q.push({i, j});
-    //             isvisited[i][j] = true;
     q.push({startY, startX});
     isvisited[startY][startX] = 1;
 
